@@ -1,0 +1,20 @@
+Error: memory error: out of bound pointer
+File: libc/string/memcpy.c
+Line: 29
+assembly.ll line: 4445
+Stack: 
+	#000004445 in memcpy (s1=93825075391120, s2=93825087081825, n=3) at libc/string/memcpy.c:29
+	#100022071 in __stdio_fwrite (buffer=93825087081825, bytes=3, stream=93825055872928) at libc/stdio/_fwrite.c:39
+	#200015888 in vfprintf (stream=93825055872928, format=93825087081824, arg=93825093163584) at libc/stdio/_vfprintf.c:1904
+	#300024997 in vsnprintf (buf=93825075391120, size=18446744073709551615, format=93825087081824, arg=93825093163584) at libc/stdio/vsnprintf.c:64
+	#400015749 in sprintf (buf=93825075391120, format=93825087081824) at libc/stdio/sprintf.c:24
+	#500010559 in decode_one_format (=93825087113592, =93825087113592, =93825092880504, =93825075391104) at ../src/od.c:723
+	#600006095 in decode_format_string (=93825087113592) at ../src/od.c:993
+	#700005350 in __klee_posix_wrapped_main (=1, =93825092221088) at ../src/od.c:1897
+	#800002895 in __user_main (argcPtr=15, argvPtr=93825050696976, envp=93825050697104) at /home/haoxin/haoxin-data/smu-research/exp/tools/klee/runtime/POSIX/klee_init_env.c:245
+	#900000720 in __uClibc_main (argc=15, argv=93825050696976) at libc/misc/internals/__uClibc_main.c:401
+	#1000000889 in main (=15, =93825050696976)
+Info: 
+	address: 93825075391120
+	next: object at 93825049662272 of size 315
+		MO108[315] allocated at global:.str.8.82

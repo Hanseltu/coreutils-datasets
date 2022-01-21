@@ -1,0 +1,81 @@
+array A-data-stat[144] : w32 -> w8 = symbolic
+array arg00[11] : w32 -> w8 = symbolic
+array arg01[3] : w32 -> w8 = symbolic
+array const_arr6[24] : w32 -> w8 = [8 0 0 0 171 171 171 171 64 138 95 91 85 85 0 0 240 153 36 89 85 85 0 0]
+array model_version[4] : w32 -> w8 = symbolic
+array n_args[4] : w32 -> w8 = symbolic
+array n_args_1[4] : w32 -> w8 = symbolic
+array stdin-stat[144] : w32 -> w8 = symbolic
+array stdout-stat[144] : w32 -> w8 = symbolic
+(query [(Ult N0:(ReadLSB w32 0 n_args)
+              2)
+         (Slt 0 N0)
+         (Ult N1:(ReadLSB w32 0 n_args_1)
+              3)
+         (Slt 0 N1)
+         (Eq (Add w32 1 N0) (Add w32 N1 N0))
+         (Eq false
+             (Eq 0
+                 (And w64 N2:(ReadLSB w64 8 A-data-stat)
+                          2147483647)))
+         (Ult (ReadLSB w64 56 A-data-stat)
+              65536)
+         (Eq false
+             (Eq 0
+                 (And w64 (ReadLSB w64 8 stdin-stat)
+                          2147483647)))
+         (Ult (ReadLSB w64 56 stdin-stat)
+              65536)
+         (Eq false
+             (Eq 0
+                 (And w64 (ReadLSB w64 8 stdout-stat)
+                          2147483647)))
+         (Ult (ReadLSB w64 56 stdout-stat)
+              65536)
+         (Eq 1
+             (ReadLSB w32 0 model_version))
+         (Eq 45 (Read w8 0 arg00))
+         (Eq false
+             (Eq 0 N3:(Read w8 1 arg00)))
+         (Eq false (Eq 45 N3))
+         (Eq 100
+             (Extract w8 0 (SExt w32 N3)))
+         (Eq false
+             (Eq 0 N4:(Read w8 2 arg00)))
+         (Eq 98
+             (Extract w8 0 (SExt w32 N4)))
+         (Eq 0 (Read w8 3 arg00))
+         (Eq 47 (Read w8 0 arg01))
+         (Eq 65 (Read w8 1 arg01))
+         (Eq false
+             (Eq 16384
+                 (And w32 (Concat w32 (Read w8 (Extract w32 0 (Add w64 18446650248653399595
+                                                                       N5:(ReadLSB w64 N6:(Extract w32 0 (Add w64 18446650248615704656
+                                                                                                                  (Select w64 (Eq 0 N2) 0 93825093846976))) const_arr6)))
+                                               U0:[71=0, 70=0, 69=0, 68=0, 67=0, 66=0, 65=0, 64=8, 55=0, 54=0, 53=0, 52=0, 51=0, 50=0, 49=0, 48=8] @ A-data-stat)
+                                      (Concat w24 (Read w8 (Extract w32 0 (Add w64 18446650248653399594 N5))
+                                                           U0)
+                                                  (Concat w16 (Read w8 (Extract w32 0 (Add w64 18446650248653399593 N5))
+                                                                       U0)
+                                                              (Read w8 (Extract w32 0 (Add w64 18446650248653399592 N5))
+                                                                       U0))))
+                          61440)))
+         (Eq false
+             (Eq 2
+                 (Concat w64 (Read w8 (Extract w32 0 (Add w64 18446650248653399583 N5))
+                                      U0)
+                             (Concat w56 (Read w8 (Extract w32 0 (Add w64 18446650248653399582 N5))
+                                                  U0)
+                                         (Concat w48 (Read w8 (Extract w32 0 (Add w64 18446650248653399581 N5))
+                                                              U0)
+                                                     (Concat w40 (Read w8 (Extract w32 0 (Add w64 18446650248653399580 N5))
+                                                                          U0)
+                                                                 (Concat w32 (Read w8 (Extract w32 0 (Add w64 18446650248653399579 N5))
+                                                                                      U0)
+                                                                             (Concat w24 (Read w8 (Extract w32 0 (Add w64 18446650248653399578 N5))
+                                                                                                  U0)
+                                                                                         (Concat w16 (Read w8 (Extract w32 0 (Add w64 18446650248653399577 N5))
+                                                                                                              U0)
+                                                                                                     (Read w8 (Extract w32 0 (Add w64 18446650248653399576 N5))
+                                                                                                              U0))))))))))]
+        false)

@@ -1,0 +1,21 @@
+KLEE: Using STP solver backend
+KLEE: ERROR: libc/string/memcpy.c:29: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: ../src/od.c:879: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+KLEE: increased time budget from 5.000000 to 5.733190
+
+KLEE: increased time budget from 5.733190 to 6.362709
+
+KLEE: increased time budget from 6.362709 to 7.863794
+
+KLEE: increased time budget from 7.863794 to 9.475796
+
+KLEE: increased time budget from 9.475796 to 10.445439
+
+KLEE: increased time budget from 10.445439 to 12.525152
+
+KLEE: increased time budget from 12.525152 to 13.838310
+
+KLEE: HaltTimer invoked
+KLEE: halting execution, dumping remaining states

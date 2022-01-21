@@ -1,0 +1,10 @@
+Error: failed external call: statx
+File: ../src/stat.c
+Line: 1384
+assembly.ll line: 5729
+Stack: 
+	#000005729 in do_stat (=93825090656112, =93825090656040, =93825090656040) at ../src/stat.c:1384
+	#100005371 in __klee_posix_wrapped_main (=4, =93825097730304) at ../src/stat.c:1952
+	#200003434 in __user_main (argcPtr=15, argvPtr=93825050845664, envp=93825050845792) at /home/haoxin/haoxin-data/smu-research/exp/tools/klee/runtime/POSIX/klee_init_env.c:245
+	#300000899 in __uClibc_main (argc=15, argv=93825050845664) at libc/misc/internals/__uClibc_main.c:401
+	#400001068 in main (=15, =93825050845664)

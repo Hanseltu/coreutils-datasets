@@ -1,0 +1,35 @@
+KLEE: WARNING: undefined reference to function: __ctype_get_mb_cur_max
+KLEE: WARNING: undefined reference to function: llvm.dbg.label
+KLEE: WARNING: undefined reference to function: puts
+KLEE: WARNING: undefined reference to function: reallocarray
+KLEE: WARNING: executable has module level assembly (ignoring)
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 93825091933152) at /home/haoxin/haoxin-data/smu-research/exp/tools/klee/runtime/POSIX/fd.c:991 10
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: Alignment of memory from call "realloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: reallocarray(0, 3, 40) at ../lib/xmalloc.c:0 0
+KLEE: WARNING ONCE: calling external: vprintf(93825092198544, 93825093958368) at libc/stdio/fprintf.c:35 14
+KLEE: WARNING ONCE: calling close_stdout with extra arguments.
+KLEE: WARNING ONCE: calling external: __ctype_get_mb_cur_max() at ../lib/quotearg.c:262 36
+KLEE: WARNING: killing 3571 states (over memory cap)
+KLEE: WARNING: killing 3531 states (over memory cap)
+KLEE: WARNING: killing 3514 states (over memory cap)
+KLEE: WARNING: killing 3465 states (over memory cap)
+KLEE: WARNING: killing 3459 states (over memory cap)
+KLEE: WARNING: killing 3418 states (over memory cap)
+KLEE: WARNING: killing 3380 states (over memory cap)
+KLEE: WARNING: killing 3328 states (over memory cap)
+KLEE: WARNING: killing 3283 states (over memory cap)
+KLEE: WARNING: killing 3251 states (over memory cap)
+KLEE: WARNING: killing 3257 states (over memory cap)
+KLEE: WARNING: killing 3186 states (over memory cap)
+KLEE: WARNING ONCE: calling external: printf(93825055712288, 93825087112496, 93825087112496, 93825087112496) at ../src/od.c:329 7
+KLEE: WARNING: killing 3161 states (over memory cap)
+KLEE: WARNING: killing 3131 states (over memory cap)
+KLEE: WARNING: killing 3122 states (over memory cap)
+KLEE: WARNING: killing 3105 states (over memory cap)
+KLEE: WARNING: killing 3093 states (over memory cap)
+KLEE: WARNING: killing 3104 states (over memory cap)
+KLEE: WARNING: killing 3129 states (over memory cap)
+KLEE: WARNING: killing 3093 states (over memory cap)
+KLEE: WARNING: killing 3119 states (over memory cap)
+KLEE: WARNING: killing 3136 states (over memory cap)

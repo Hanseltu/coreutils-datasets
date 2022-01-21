@@ -1,0 +1,13 @@
+libc/stdio/vasprintf.c:68
+libc/stdio/vasprintf.c:69
+libc/stdio/vasprintf.c:71
+libc/stdio/vasprintf.c:73
+libc/stdio/vasprintf.c:74
+libc/stdio/vasprintf.c:75
+libc/stdio/_vfprintf.c:1237
+libc/stdio/_vfprintf.c:1624
+libc/stdio/_vfprintf.c:1630
+libc/stdio/_vfprintf.c:1633
+libc/stdio/_vfprintf.c:1635
+libc/stdio/_fpmaxtostr.c:765
+libc/stdio/_fpmaxtostr.c:766

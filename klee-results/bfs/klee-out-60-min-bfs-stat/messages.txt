@@ -1,0 +1,9 @@
+KLEE: Using STP solver backend
+KLEE: ERROR: ../src/stat.c:1703: failed external call: is_selinux_enabled
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: ../src/stat.c:1384: failed external call: statx
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: ../src/stat.c:1661: failed external call: is_selinux_enabled
+KLEE: NOTE: now ignoring this error at this location
+KLEE: HaltTimer invoked
+KLEE: halting execution, dumping remaining states

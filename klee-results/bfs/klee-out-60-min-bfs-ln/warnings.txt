@@ -1,0 +1,21 @@
+KLEE: WARNING: undefined reference to function: __ctype_get_mb_cur_max
+KLEE: WARNING: undefined reference to function: fdopendir
+KLEE: WARNING: undefined reference to function: getrandom
+KLEE: WARNING: undefined reference to function: linkat
+KLEE: WARNING: undefined reference to function: llvm.dbg.label
+KLEE: WARNING: undefined reference to function: renameat
+KLEE: WARNING: undefined reference to function: symlinkat
+KLEE: WARNING: executable has module level assembly (ignoring)
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 93825093526896) at /home/haoxin/haoxin-data/smu-research/exp/tools/klee/runtime/POSIX/fd.c:991 10
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: Alignment of memory from call "realloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: linkat(4294967196, 93825093487760, 4294967196, 93825093567914, 0) at ../src/ln.c:174 13
+KLEE: WARNING ONCE: calling external: __ctype_get_mb_cur_max() at ../lib/quotearg.c:262 36
+KLEE: WARNING ONCE: calling external: vprintf(93825093140352, 93825094484256) at libc/stdio/fprintf.c:35 14
+KLEE: WARNING ONCE: calling close_stdin with extra arguments.
+KLEE: WARNING: killing 4848 states (over memory cap)
+KLEE: WARNING: killing 4801 states (over memory cap)
+KLEE: WARNING: killing 4692 states (over memory cap)
+KLEE: WARNING: killing 4685 states (over memory cap)
+KLEE: WARNING: killing 4663 states (over memory cap)
+KLEE: WARNING: killing 4557 states (over memory cap)

@@ -1,0 +1,10 @@
+../lib/basename.c:0
+../lib/basename.c:34
+../lib/basename.c:37
+../lib/basename.c:43
+../lib/basename-lgpl.c:0
+../lib/basename-lgpl.c:30
+../lib/basename-lgpl.c:39
+../lib/basename-lgpl.c:41
+../lib/basename-lgpl.c:43
+libc/unistd/getopt.c:517

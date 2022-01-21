@@ -1,0 +1,13 @@
+Error: inline assembly is unsupported
+File: ../src/factor.c
+Line: 765
+assembly.ll line: 8106
+Stack: 
+	#000008106 in factor_using_division (=93825108242304, , , =93825108481536) at ../src/factor.c:765
+	#100008041 in factor (, , =93825108481536) at ../src/factor.c:2219
+	#200005115 in print_factors_single (, ) at ../src/factor.c:2444
+	#300004916 in print_factors (=93825103166080) at ../src/factor.c:2490
+	#400004589 in __klee_posix_wrapped_main (=2, =93825103778368) at ../src/factor.c:2615
+	#500002791 in __user_main (argcPtr=15, argvPtr=93825051293072, envp=93825051293200) at /home/haoxin/haoxin-data/smu-research/exp/tools/klee/runtime/POSIX/klee_init_env.c:245
+	#600000616 in __uClibc_main (argc=15, argv=93825051293072) at libc/misc/internals/__uClibc_main.c:401
+	#700000785 in main (=15, =93825051293072)

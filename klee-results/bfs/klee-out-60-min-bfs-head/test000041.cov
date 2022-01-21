@@ -1,0 +1,6 @@
+../src/head.c:0
+../src/head.c:1024
+../src/head.c:1039
+libc/stdlib/stdlib.c:534
+libc/stdlib/stdlib.c:535
+libc/unistd/getopt.c:473

@@ -1,0 +1,5 @@
+../src/basename.c:0
+../src/basename.c:148
+../src/basename.c:150
+libc/unistd/getopt.c:633
+libc/unistd/getopt.c:696

@@ -1,0 +1,23 @@
+KLEE: WARNING: undefined reference to function: __ctype_get_mb_cur_max
+KLEE: WARNING: undefined reference to function: llvm.dbg.label
+KLEE: WARNING: undefined reference to function: posix_fadvise
+KLEE: WARNING: undefined reference to function: reallocarray
+KLEE: WARNING: executable has module level assembly (ignoring)
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 93825089131968) at /home/haoxin/haoxin-data/smu-research/exp/tools/klee/runtime/POSIX/fd.c:991 10
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: Alignment of memory from call "realloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: posix_fadvise(0, 0, 0, 2) at ../lib/fadvise.c:36 1
+KLEE: WARNING ONCE: calling external: reallocarray(0, 2, 8) at ../lib/xmalloc.c:0 0
+KLEE: WARNING ONCE: calling external: vprintf(93825089118400, 93825090263392) at libc/stdio/fprintf.c:35 14
+KLEE: WARNING ONCE: calling close_stdout with extra arguments.
+KLEE: WARNING ONCE: sigaction: silently ignoring
+KLEE: WARNING ONCE: calling external: __ctype_get_mb_cur_max() at ../lib/quotearg.c:262 36
+KLEE: WARNING ONCE: calling external: printf(93825088808016, 93825088749664) at ../src/tee.c:88 7
+KLEE: WARNING: killing 5413 states (over memory cap)
+KLEE: WARNING: killing 5381 states (over memory cap)
+KLEE: WARNING: killing 5333 states (over memory cap)
+KLEE: WARNING: killing 5321 states (over memory cap)
+KLEE: WARNING: killing 5307 states (over memory cap)
+KLEE: WARNING: killing 5263 states (over memory cap)
+KLEE: WARNING: killing 5234 states (over memory cap)
+KLEE: WARNING: killing 5248 states (over memory cap)

@@ -1,0 +1,10 @@
+Error: failed external call: is_selinux_enabled
+File: ../src/stat.c
+Line: 1703
+assembly.ll line: 5617
+Stack: 
+	#000005617 in default_format (=false, =false, =false) at ../src/stat.c:1703
+	#100005343 in __klee_posix_wrapped_main (=2, =93825097598944) at ../src/stat.c:1945
+	#200003434 in __user_main (argcPtr=15, argvPtr=93825050845664, envp=93825050845792) at /home/haoxin/haoxin-data/smu-research/exp/tools/klee/runtime/POSIX/klee_init_env.c:245
+	#300000899 in __uClibc_main (argc=15, argv=93825050845664) at libc/misc/internals/__uClibc_main.c:401
+	#400001068 in main (=15, =93825050845664)

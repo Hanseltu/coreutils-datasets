@@ -1,0 +1,8 @@
+../src/stat.c:935
+../src/stat.c:936
+/home/haoxin/haoxin-data/smu-research/exp/tools/klee/runtime/Intrinsic/klee_div_zero_check.c:0
+/home/haoxin/haoxin-data/smu-research/exp/tools/klee/runtime/Intrinsic/klee_div_zero_check.c:13
+/home/haoxin/haoxin-data/smu-research/exp/tools/klee/runtime/Intrinsic/klee_div_zero_check.c:15
+libc/stdio/fwrite.c:27
+libc/stdio/fwrite.c:28
+libc/stdio/fwrite.c:29

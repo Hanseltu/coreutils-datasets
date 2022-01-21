@@ -1,0 +1,7 @@
+libc/stdio/_vfprintf.c:660
+libc/stdio/_vfprintf.c:661
+libc/stdio/_vfprintf.c:1033
+libc/stdio/_vfprintf.c:1034
+libc/stdio/_vfprintf.c:1037
+../src/dircolors.c:287
+../src/dircolors.c:288

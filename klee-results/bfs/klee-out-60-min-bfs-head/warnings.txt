@@ -1,0 +1,104 @@
+KLEE: WARNING: undefined reference to function: __ctype_get_mb_cur_max
+KLEE: WARNING: undefined reference to function: llvm.dbg.label
+KLEE: WARNING: undefined reference to function: reallocarray
+KLEE: WARNING: executable has module level assembly (ignoring)
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 93825090393440) at /home/haoxin/haoxin-data/smu-research/exp/tools/klee/runtime/POSIX/fd.c:991 10
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: Alignment of memory from call "realloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling close_stdout with extra arguments.
+KLEE: WARNING ONCE: calling external: __ctype_get_mb_cur_max() at ../lib/quotearg.c:262 36
+KLEE: WARNING ONCE: calling external: printf(93825090004416, 93825086144096, 93825090004320) at ../src/head.c:173 14
+KLEE: WARNING ONCE: calling external: vprintf(93825086144000, 93825091007168) at libc/stdio/fprintf.c:35 14
+KLEE: WARNING: unable to write output test case, losing it
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000066.cvc".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000066.cov".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING ONCE: calling external: reallocarray(0, 2, (Add w64 8192
+          (Add w64 (Mul w64 10
+                            (Add w64 (Mul w64 10
+                                              (Add w64 (Mul w64 10
+                                                                (Add w64 (Mul w64 10
+                                                                                  (Add w64 (Mul w64 10
+                                                                                                    (ZExt w64 (Extract w8 0 (Add w32 4294967248
+                                                                                                                                     (SExt w32 (Read w8 4 arg00))))))
+                                                                                           (ZExt w64 (Extract w8 0 (Add w32 4294967248
+                                                                                                                            (SExt w32 (Read w8 5 arg00)))))))
+                                                                         (ZExt w64 (Extract w8 0 (Add w32 4294967248
+                                                                                                          (SExt w32 (Read w8 6 arg00)))))))
+                                                       (ZExt w64 (Extract w8 0 (Add w32 4294967248
+                                                                                        (SExt w32 (Read w8 7 arg00)))))))
+                                     (ZExt w64 (Extract w8 0 (Add w32 4294967248
+                                                                      (SExt w32 (Read w8 8 arg00)))))))
+                   (ZExt w64 (Extract w8 0 (Add w32 4294967248
+                                                    (SExt w32 (Read w8 9 arg00)))))))) at ../lib/xmalloc.c:0 0
+KLEE: WARNING: unable to write output test case, losing it
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000067.ptr.err".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000067.kquery".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000067.cvc".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000067.cov".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: unable to write output test case, losing it
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000068.cvc".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000068.cov".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: unable to write output test case, losing it
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000069.cvc".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000069.cov".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: unable to write output test case, losing it
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000070.cvc".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000070.cov".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: unable to write output test case, losing it
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000071.cvc".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000071.cov".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: unable to write output test case, losing it
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000072.cvc".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000072.cov".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: unable to write output test case, losing it
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000073.cvc".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000073.cov".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: killing 4909 states (over memory cap)
+KLEE: WARNING: killing 4834 states (over memory cap)
+KLEE: WARNING: unable to write output test case, losing it
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000074.cvc".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000074.cov".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: unable to write output test case, losing it
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000075.cvc".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000075.cov".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: unable to write output test case, losing it
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000076.cvc".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000076.cov".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: killing 4773 states (over memory cap)
+KLEE: WARNING: killing 4732 states (over memory cap)
+KLEE: WARNING: killing 4633 states (over memory cap)
+KLEE: WARNING: killing 4624 states (over memory cap)
+KLEE: WARNING: killing 4575 states (over memory cap)
+KLEE: WARNING: killing 4497 states (over memory cap)
+KLEE: WARNING: killing 4391 states (over memory cap)
+KLEE: WARNING: killing 4296 states (over memory cap)
+KLEE: WARNING: unable to write output test case, losing it
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000077.early".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000077.kquery".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000077.cvc".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000077.cov".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: unable to write output test case, losing it
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000078.early".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000078.kquery".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000078.cvc".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000078.cov".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: unable to write output test case, losing it
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000079.early".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000079.kquery".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000079.cvc".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000079.cov".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: unable to write output test case, losing it
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000080.early".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000080.kquery".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000080.cvc".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000080.cov".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: unable to write output test case, losing it
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000081.early".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000081.kquery".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000081.cvc".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000081.cov".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: unable to write output test case, losing it
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000082.early".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000082.kquery".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000082.cvc".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).
+KLEE: WARNING: error opening file "/home/haoxin/haoxin-data/smu-research/exp/datasets/coreutils-9.0/obj-llvm/src/klee-out-60-min-bfs-head/test000082.cov".  KLEE may have run out of file descriptors: try to increase the maximum number of open file descriptors by using ulimit (Too many open files).

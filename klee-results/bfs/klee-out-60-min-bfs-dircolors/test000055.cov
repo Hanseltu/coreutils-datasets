@@ -1,0 +1,15 @@
+libc/stdio/puts.c:13
+libc/stdio/puts.c:15
+libc/stdio/puts.c:16
+libc/stdio/puts.c:26
+libc/stdio/puts.c:27
+libc/stdio/puts.c:28
+libc/stdio/puts.c:31
+libc/stdio/puts.c:35
+../src/dircolors.c:0
+../src/dircolors.c:395
+../src/dircolors.c:423
+../src/dircolors.c:457
+../src/dircolors.c:459
+../src/dircolors.c:461
+../src/dircolors.c:462

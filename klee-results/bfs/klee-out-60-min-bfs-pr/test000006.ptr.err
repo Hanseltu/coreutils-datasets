@@ -1,0 +1,13 @@
+Error: memory error: out of bound pointer
+File: ../src/pr.c
+Line: 897
+assembly.ll line: 4651
+Stack: 
+	#000004651 in __klee_posix_wrapped_main (=2, =93825106548960) at ../src/pr.c:897
+	#100002922 in __user_main (argcPtr=15, argvPtr=93825059971792, envp=93825059971920) at /home/haoxin/haoxin-data/smu-research/exp/tools/klee/runtime/POSIX/klee_init_env.c:245
+	#200000744 in __uClibc_main (argc=15, argv=93825059971792) at libc/misc/internals/__uClibc_main.c:401
+	#300000913 in main (=15, =93825059971792)
+Info: 
+	address: 93825062725632
+	next: object at 93825049836544 of size 448
+		MO339[448] allocated at global:hr_locale

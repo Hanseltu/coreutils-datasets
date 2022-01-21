@@ -1,0 +1,10 @@
+../src/od.c:0
+../src/od.c:812
+../src/od.c:813
+libc/stdio/_vfprintf.c:1438
+libc/stdio/_vfprintf.c:1603
+libc/stdio/_vfprintf.c:1604
+libc/stdio/_vfprintf.c:1605
+libc/stdio/_vfprintf.c:1606
+libc/stdio/_vfprintf.c:1613
+libc/stdio/_vfprintf.c:1619
