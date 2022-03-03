@@ -1,0 +1,18 @@
+Error: memory error: out of bound pointer
+File: ../lib/fts.c
+Line: 569
+assembly.ll line: 11421
+Stack: 
+	#000011421 in fts_load (=64942848, ) at ../lib/fts.c:569
+	#100006238 in rpl_fts_read (=64942848) at ../lib/fts.c:979
+	#200005892 in rm (=107228232, =107229312) at ../src/remove.c:597
+	#300005537 in __klee_posix_wrapped_main (=3, =107228224) at ../src/rm.c:370
+	#400003532 in __user_main (argcPtr=15, argvPtr=60640544, envp=60640672) at /home/haoxin/haoxin-data/smu-research/exp/tools/symMalloc/klee/runtime/POSIX/klee_init_env.c:252
+	#500000691 in __uClibc_main (argc=15, argv=60640544) at libc/misc/internals/__uClibc_main.c:401
+	#600000860 in main (=15, =60640544)
+Info: 
+	address: 18446744073709551415
+	next: object at 140737281096512 of size 1536
+		MO30[1536] (no allocation info)
+	prev: object at 247927360 of size 32
+		MO6456704[32] allocated at setup_dir():  %11 = tail call noalias i8* @malloc(i64 32) #10, !dbg !2749

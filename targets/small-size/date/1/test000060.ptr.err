@@ -1,0 +1,19 @@
+Error: memory error: out of bound pointer
+File: ../lib/time_rz.c
+Line: 210
+assembly.ll line: 8155
+Stack: 
+	#000008155 in set_tz () at ../lib/time_rz.c:210
+	#100005836 in localtime_rz (, =159490648, =162567616) at ../lib/time_rz.c:273
+	#200009998 in parse_datetime_body (=110710944, =110413368, =0, , =0) at parse-datetime.y:1857
+	#300005736 in parse_datetime2 (=110710944, =110413368, =0, , =0) at parse-datetime.y:2387
+	#400005235 in __klee_posix_wrapped_main (=4, =111190640) at ../src/date.c:551
+	#500003129 in __user_main (argcPtr=15, argvPtr=61769600, envp=61769728) at /home/haoxin/haoxin-data/smu-research/exp/tools/symMalloc/klee/runtime/POSIX/klee_init_env.c:252
+	#600000935 in __uClibc_main (argc=15, argv=61769600) at libc/misc/internals/__uClibc_main.c:401
+	#700001104 in main (=15, =61769600)
+Info: 
+	address: 18446744073709551615
+	next: object at 140737281096512 of size 1536
+		MO30[1536] (no allocation info)
+	prev: object at 162841216 of size 56
+		MO481908[56] allocated at parse_datetime_body():  %22 = alloca %struct.tm, align 8

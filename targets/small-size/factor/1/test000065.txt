@@ -1,0 +1,7 @@
+name 	 file_name 	 line 	 address
+sym_146501216	../lib/striconv.c	265	
+sym_149147984	../lib/xmalloc.c	44	
+sym_155442112	../lib/xmalloc.c	44	
+sym_164991808	../lib/striconv.c	265	
+sym_166170560	../lib/striconv.c	265	
+sym_92940288	../lib/xmalloc.c	44	

@@ -1,0 +1,19 @@
+Error: memory error: out of bound pointer
+File: ../lib/striconv.c
+Line: 367
+assembly.ll line: 12088
+Stack: 
+	#000012088 in str_cd_iconv (=99818864, =435401792) at ../lib/striconv.c:367
+	#100011871 in str_iconv (=99818864, ) at ../lib/striconv.c:423
+	#200011820 in xstr_iconv (=99818864, ) at ../lib/xstriconv.c:57
+	#300004755 in proper_name_utf8 (=99818832, =99818864) at ../lib/propername.c:219
+	#400004558 in __klee_posix_wrapped_main (=2, =104576704) at ../src/factor.c:2597
+	#500002794 in __user_main (argcPtr=15, argvPtr=62320624, envp=62320752) at /home/haoxin/haoxin-data/smu-research/exp/tools/symMalloc/klee/runtime/POSIX/klee_init_env.c:252
+	#600000619 in __uClibc_main (argc=15, argv=62320624) at libc/misc/internals/__uClibc_main.c:401
+	#700000788 in main (=15, =62320624)
+Info: 
+	address: 503485768
+	next: object at 140737281096512 of size 1536
+		MO30[1536] (no allocation info)
+	prev: object at 435989400 of size 8
+		MO9029568[8] allocated at str_cd_iconv():  %6 = alloca i64, align 8

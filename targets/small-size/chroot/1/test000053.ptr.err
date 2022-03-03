@@ -1,0 +1,17 @@
+Error: memory error: out of bound pointer
+File: ../lib/xstrtol.c
+Line: 91
+assembly.ll line: 7856
+Stack: 
+	#000007856 in xstrtoumax (, =130473312) at ../lib/xstrtol.c:91
+	#100007402 in parse_additional_groups (=102117732, =101659848, =101660376, =false) at ../src/chroot.c:111
+	#200006784 in __klee_posix_wrapped_main (=4, =102636672) at ../src/chroot.c:318
+	#300002960 in __user_main (argcPtr=15, argvPtr=61745744, envp=61745872) at /home/haoxin/haoxin-data/smu-research/exp/tools/symMalloc/klee/runtime/POSIX/klee_init_env.c:252
+	#400000624 in __uClibc_main (argc=15, argv=61745744) at libc/misc/internals/__uClibc_main.c:401
+	#500000793 in main (=15, =61745744)
+Info: 
+	address: 18446744073709551615
+	next: object at 140737281096512 of size 1536
+		MO30[1536] (no allocation info)
+	prev: object at 1200296760 of size 8
+		MO10755648[8] allocated at xstrtoumax():  %3 = alloca i8*, align 8

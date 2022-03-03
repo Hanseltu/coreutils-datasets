@@ -1,0 +1,12 @@
+KLEE-REPLAY: NOTE: Test file: test000053.ktest
+KLEE-REPLAY: NOTE: Arguments: ppp"/home/haoxin/disk-smu/research/datasets/coreutils-9.0/obj-llvm/src/chroot" ppp"--g=,,,,," ppp"--" ppp"" 
+KLEE-REPLAY: NOTE: Storing KLEE replay files in /tmp/klee-replay-DMNnHV
+KLEE-REPLAY: NOTE: Creating file /tmp/klee-replay-DMNnHV/A of length 8
+KLEE-REPLAY: NOTE: Creating file /tmp/klee-replay-DMNnHV/fd0 of length 8
+KLEE-REPLAY: NOTE: Creating file /tmp/klee-replay-DMNnHV/fd1 of length 1024
+KLEE-REPLAY: WARNING: check_file stdin: dev mismatch: 2049 vs 2065
+KLEE-REPLAY: WARNING: check_file stdout: dev mismatch: 2049 vs 2065
+KLEE-REPLAY: WARNING: check_file A: dev mismatch: 2049 vs 2065
+/home/haoxin/disk-smu/research/datasets/coreutils-9.0/obj-llvm/src/chroot: cannot change root directory to '': No such file or directory
+KLEE-REPLAY: NOTE: EXIT STATUS: ABNORMAL 125 (0 seconds)
+KLEE-REPLAY: NOTE: removing /tmp/klee-replay-DMNnHV

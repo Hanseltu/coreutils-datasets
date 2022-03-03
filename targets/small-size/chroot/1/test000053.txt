@@ -1,0 +1,2 @@
+name 	 file_name 	 line 	 address
+sym_122357656	../lib/xmalloc.c	44	

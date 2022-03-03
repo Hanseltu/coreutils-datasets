@@ -1,0 +1,17 @@
+Error: memory error: out of bound pointer
+File: ../lib/cycle-check.c
+Line: 60
+assembly.ll line: 11654
+Stack: 
+	#000011654 in cycle_check (, ) at ../lib/cycle-check.c:60
+	#100011523 in enter_dir (=66433920, ) at ../lib/fts-cycle.c:108
+	#200006363 in rpl_fts_read (=66433920) at ../lib/fts.c:1024
+	#300005845 in rm (=105201288, =105697312) at ../src/remove.c:597
+	#400005537 in __klee_posix_wrapped_main (=2, =105201280) at ../src/rm.c:370
+	#500003532 in __user_main (argcPtr=15, argvPtr=60640544, envp=60640672) at /home/haoxin/haoxin-data/smu-research/exp/tools/symMalloc/klee/runtime/POSIX/klee_init_env.c:252
+	#600000691 in __uClibc_main (argc=15, argv=60640544) at libc/misc/internals/__uClibc_main.c:401
+	#700000860 in main (=15, =60640544)
+Info: 
+	address: 24
+	next: object at 60638864 of size 229
+		MO117[229] allocated at global:.str.11.85

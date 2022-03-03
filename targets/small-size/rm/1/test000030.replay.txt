@@ -1,0 +1,13 @@
+KLEE-REPLAY: NOTE: Test file: test000030.ktest
+KLEE-REPLAY: NOTE: Arguments: ppp"/home/haoxin/disk-smu/research/datasets/coreutils-9.0/obj-llvm/src/rm" ppp"A" 
+KLEE-REPLAY: NOTE: Storing KLEE replay files in /tmp/klee-replay-7thuPR
+KLEE-REPLAY: NOTE: Creating file /tmp/klee-replay-7thuPR/fd0 of length 8
+KLEE-REPLAY: NOTE: Creating file /tmp/klee-replay-7thuPR/fd1 of length 1024
+KLEE-REPLAY: WARNING: check_file stdin: dev mismatch: 2049 vs 2065
+KLEE-REPLAY: WARNING: check_file stdout: dev mismatch: 2049 vs 2065
+KLEE-REPLAY: WARNING: check_file A: dev mismatch: 2049 vs 2065
+KLEE-REPLAY: WARNING: check_file A: nlink mismatch: 2 vs 1
+KLEE-REPLAY: WARNING: check_file A: size mismatch: 4096 vs 8
+/home/haoxin/disk-smu/research/datasets/coreutils-9.0/obj-llvm/src/rm: cannot remove 'A': Is a directory
+KLEE-REPLAY: NOTE: EXIT STATUS: ABNORMAL 1 (0 seconds)
+KLEE-REPLAY: NOTE: removing /tmp/klee-replay-7thuPR

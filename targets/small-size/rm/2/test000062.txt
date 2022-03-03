@@ -1,0 +1,7 @@
+name 	 file_name 	 line 	 address
+sym_117004768	../lib/fts.c	1884	
+sym_146306560	../lib/fts.c	1884	
+sym_205761056	../lib/fts.c	1884	
+sym_227044320	../lib/fts.c	1884	
+sym_247927360	../lib/fts-cycle.c	62	
+sym_274823072	../lib/fts-cycle.c	62	
