@@ -1,0 +1,86 @@
+ktest file : 'test000065.ktest'
+args       : ['./factor.bc', '-sym-args', '0', '1', '10', '--sym-args', '0', '2', '2', '--sym-files', '1', '8', '--sym-stdin', '8', '--sym-stdout']
+num objects: 13
+object  0: name: 'n_args'
+object  0: size: 4
+object  0: data: b'\x01\x00\x00\x00'
+object  0: hex : 0x01000000
+object  0: int : 1
+object  0: uint: 1
+object  0: text: ....
+object  1: name: 'arg00'
+object  1: size: 11
+object  1: data: b'--v\x00\xff\xff\xff\xff\xff\xff\xff'
+object  1: hex : 0x2d2d7600ffffffffffffff
+object  1: text: --v........
+object  2: name: 'n_args'
+object  2: size: 4
+object  2: data: b'\x00\x00\x00\x00'
+object  2: hex : 0x00000000
+object  2: int : 0
+object  2: uint: 0
+object  2: text: ....
+object  3: name: 'A-data-stat'
+object  3: size: 144
+object  3: data: b'\x11\x08\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\xff\xff\xff\xff\x01\x00\x00\x00\x00\x00\x00\x00\xa4\x81\x00\x00\xe7\x03\x00\x00\xe7\x03\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xff\x00\x10\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xffP\x87\xd6a\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xffP\x87\xd6a\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xffP\x87\xd6a\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff'
+object  3: hex : 0x110800000000000001000000ffffffff0100000000000000a4810000e7030000e7030000ffffffff0000000000000000ffffffffffffffff0010000000000000ffffffffffffffff5087d66100000000ffffffffffffffff5087d66100000000ffffffffffffffff5087d66100000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+object  3: text: ........................................................................P..a............P..a............P..a....................................
+object  4: name: 'stdin-stat'
+object  4: size: 144
+object  4: data: b'\x11\x08\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\xff\xff\xff\xff\x01\x00\x00\x00\x00\x00\x00\x00\xa4\x81\x00\x00\xe7\x03\x00\x00\xe7\x03\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xff\x00\x10\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xffP\x87\xd6a\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xffP\x87\xd6a\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xffP\x87\xd6a\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff'
+object  4: hex : 0x110800000000000001000000ffffffff0100000000000000a4810000e7030000e7030000ffffffff0000000000000000ffffffffffffffff0010000000000000ffffffffffffffff5087d66100000000ffffffffffffffff5087d66100000000ffffffffffffffff5087d66100000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+object  4: text: ........................................................................P..a............P..a............P..a....................................
+object  5: name: 'stdout-stat'
+object  5: size: 144
+object  5: data: b'\x11\x08\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\xff\xff\xff\xff\x01\x00\x00\x00\x00\x00\x00\x00\xa4\x81\x00\x00\xe7\x03\x00\x00\xe7\x03\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xff\x00\x10\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xffP\x87\xd6a\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xffP\x87\xd6a\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xffP\x87\xd6a\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff'
+object  5: hex : 0x110800000000000001000000ffffffff0100000000000000a4810000e7030000e7030000ffffffff0000000000000000ffffffffffffffff0010000000000000ffffffffffffffff5087d66100000000ffffffffffffffff5087d66100000000ffffffffffffffff5087d66100000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+object  5: text: ........................................................................P..a............P..a............P..a....................................
+object  6: name: 'model_version'
+object  6: size: 4
+object  6: data: b'\x01\x00\x00\x00'
+object  6: hex : 0x01000000
+object  6: int : 1
+object  6: uint: 1
+object  6: text: ....
+object  7: name: 'sym_92940288'
+object  7: size: 8
+object  7: data: b'\x00\x00\x00\x00\x00\x00\x00\x00'
+object  7: hex : 0x0000000000000000
+object  7: int : 0
+object  7: uint: 0
+object  7: text: ........
+object  8: name: 'sym_164991808'
+object  8: size: 8
+object  8: data: b'\x01\x01\x01\x01\x01\x01\x01\x01'
+object  8: hex : 0x0101010101010101
+object  8: int : 72340172838076673
+object  8: uint: 72340172838076673
+object  8: text: ........
+object  9: name: 'sym_149147984'
+object  9: size: 8
+object  9: data: b'\xa0\xd0:\x06\x00\x00\x00\x00'
+object  9: hex : 0xa0d03a0600000000
+object  9: int : 104517792
+object  9: uint: 104517792
+object  9: text: ..:.....
+object 10: name: 'sym_166170560'
+object 10: size: 8
+object 10: data: b'\x01\x01\x01\x01\x01\x01\x01\x01'
+object 10: hex : 0x0101010101010101
+object 10: int : 72340172838076673
+object 10: uint: 72340172838076673
+object 10: text: ........
+object 11: name: 'sym_155442112'
+object 11: size: 8
+object 11: data: b'\x02ux\x05\x00\x00\x00\x00'
+object 11: hex : 0x0275780500000000
+object 11: int : 91780354
+object 11: uint: 91780354
+object 11: text: .ux.....
+object 12: name: 'sym_146501216'
+object 12: size: 8
+object 12: data: b';\x95\x02\x1e\x00\x00\x00\x00'
+object 12: hex : 0x3b95021e00000000
+object 12: int : 503485755
+object 12: uint: 503485755
+object 12: text: ;.......
